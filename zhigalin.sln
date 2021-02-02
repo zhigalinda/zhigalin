@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zhigalin", "zhigalin\zhigalin.csproj", "{403B2765-2958-4931-9682-92BE8A4BA329}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utils", "utils", "{81512DF4-BF00-4514-BC6D-016FB144C909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis", "utils\Redis\Redis.csproj", "{530F432A-05A3-4D26-ADF4-85CC84B7DF53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.CLI", "utils\Redis.CLI\Redis.CLI.csproj", "{40A120A2-7399-4F62-9E71-8AEB4E966EDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{403B2765-2958-4931-9682-92BE8A4BA329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403B2765-2958-4931-9682-92BE8A4BA329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403B2765-2958-4931-9682-92BE8A4BA329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403B2765-2958-4931-9682-92BE8A4BA329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530F432A-05A3-4D26-ADF4-85CC84B7DF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530F432A-05A3-4D26-ADF4-85CC84B7DF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530F432A-05A3-4D26-ADF4-85CC84B7DF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530F432A-05A3-4D26-ADF4-85CC84B7DF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A120A2-7399-4F62-9E71-8AEB4E966EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A120A2-7399-4F62-9E71-8AEB4E966EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A120A2-7399-4F62-9E71-8AEB4E966EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A120A2-7399-4F62-9E71-8AEB4E966EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{530F432A-05A3-4D26-ADF4-85CC84B7DF53} = {81512DF4-BF00-4514-BC6D-016FB144C909}
+		{40A120A2-7399-4F62-9E71-8AEB4E966EDD} = {81512DF4-BF00-4514-BC6D-016FB144C909}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32C3C182-C384-4CBA-A5D4-A6DDE3AEBC18}
+	EndGlobalSection
+EndGlobal
